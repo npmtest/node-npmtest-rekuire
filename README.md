@@ -1,6 +1,6 @@
 # npmtest-rekuire
 
-#### test coverage for  [rekuire (v0.1.9)](https://github.com/nadav-dav/rekuire)  [![npm package](https://img.shields.io/npm/v/npmtest-rekuire.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rekuire) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rekuire.svg)](https://travis-ci.org/npmtest/node-npmtest-rekuire)
+#### basic test coverage for  [rekuire (v0.1.9)](https://github.com/nadav-dav/rekuire)  [![npm package](https://img.shields.io/npm/v/npmtest-rekuire.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rekuire) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rekuire.svg)](https://travis-ci.org/npmtest/node-npmtest-rekuire)
 
 #### 'rekuire' is basically node's 'require' without the relative paths
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-rekuire/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-rekuire/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-rekuire/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-rekuire/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rekuire/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rekuire/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-rekuire/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-rekuire/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rekuire/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rekuire/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-rekuire/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-rekuire/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
     "scripts": {
         "test": "npm install && ./node_modules/.bin/jasmine-node ./test/"
     },
-    "version": "0.1.9"
+    "version": "0.1.9",
+    "bin": {}
 }
 ```
 
